@@ -12,7 +12,7 @@ pipeline {
 
        stage('Build') {
            steps {
-               sh 'docker build -t zerocoolbr/capstonedevops'
+               sh 'docker build -t zerocoolbr/capstonedevops .'
            }
        }
 
