@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "zerocoolbr/magalixcorp"
+       registry = "zerocoolbr/capstonedevops"
        GOCACHE = "/tmp"
    }
    stages {
