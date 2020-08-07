@@ -22,7 +22,7 @@
                 "containers": [
                     {
                         "name": "green",
-                        "image": "hballow2008/Capstone",
+                        "image": "zerocoolbr/capstonedevops",
                         "ports": [
                             {
                                 "name": "http-server",
