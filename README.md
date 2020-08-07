@@ -25,3 +25,9 @@ After creation of cluster, run the follow command to create a config file
 Take note from the output and update the Jenkins file.
 
 For more informations visit https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
+
+The `playblook.yaml` file is for install jenkins and necessary packages
+The `Jenkinsfile` is for the pipeline
+The `Dockerfile` is for Dockerimage
+The `index.html` file is upload to a nginx server
+All the `.json` files is used for blue/green deploy
