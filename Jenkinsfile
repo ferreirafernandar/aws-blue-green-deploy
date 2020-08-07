@@ -11,11 +11,11 @@ pipeline {
 		}
 
        stage('Build') {
-           setps {
+           steps {
                sh 'docker build -t zerocoolbr/capstonedevops'
            }
        }
-       
+
        stage('Publish') {
            environment {
                registryCredential = 'dockerhub'
